@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test javascript</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="calculatrice" align="center">
+		<h1>Calculator</h1>
+		<h1 id="resultat">0</h1>
+		<button class="buttonCalc button8" id="7" onclick="number('7')">7</button>
+		<button class="buttonCalc button8" id="8" onclick="number('8')">8</button>
+		<button class="buttonCalc button8" id="9" onclick="number('9')">9</button>
+		<button class="buttonCalc button9" id="divi" onclick="operateur('/')">÷</button><br>
+		<button class="buttonCalc button8" id="4" onclick="number('4')">4</button>
+		<button class="buttonCalc button8" id="5" onclick="number('5')">5</button>
+		<button class="buttonCalc button8" id="6" onclick="number('6')">6</button>
+		<button class="buttonCalc button9" id="mul" onclick="operateur('*')">x</button><br>
+		<button class="buttonCalc button8" id="1" onclick="number('1')">1</button>
+		<button class="buttonCalc button8" id="2" onclick="number('2')">2</button>
+		<button class="buttonCalc button8" id="3" onclick="number('3')">3</button>
+		<button class="buttonCalc button9" id="moins" onclick="operateur('-')">-</button><br>
+		<button class="buttonCalc button8" id="0" onclick="number('0')">0</button>
+		<button class="buttonCalc button8" id="virgule" onclick="number('.')">.</button>
+		<button class="buttonCalc button10" id="zero" onclick="remiseAZero()">C</button>
+		<button class="buttonCalc button9" id="plus" onclick="operateur('+')">+</button><br>
+		<button class="button1 egal" id="egal" onclick="operateur('=')">=</button>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

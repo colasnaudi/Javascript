@@ -1,0 +1,88 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*                                    To-Do                                   */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.buttonAdd {
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+}
+
+.buttonDel {
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    float: r;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+}
+
+.button11 {
+    background-color: rgb(132, 25, 240); 
+    color: white; 
+    border: 2px solid rgb(132, 25, 240);
+    border-radius: 5px;
+}
+
+.button11:hover {
+    background-color: rgb(163, 72, 255);
+    border: 2px solid rgb(163, 72, 255);
+}
+
+.to-do input {
+    padding: 7px 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.row {
+    padding: 15px 15px;
+}
+
+.taskText {
+    float: left;
+}
+
+.removeBtn {
+    float: right;
+    background-color: rgb(132, 25, 240); 
+    color: white; 
+    display: block;
+    padding: 7px 10px;
+    border: 2px solid rgb(132, 25, 240);
+    border-radius: 5px;
+    margin-top: -10px;
+    margin-right: -10px;
+    cursor: pointer;
+}
+
+.removeBtn:hover {
+    background-color: rgb(163, 72, 255);
+    border: 2px solid rgb(163, 72, 255);
+}

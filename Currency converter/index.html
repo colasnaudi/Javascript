@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test javascript</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="convertisseur" align="center">
+		<h1>Currency converter</h1>
+		<select name="devise" id="devise-select">
+			<option value="">--Choose a currency--</option>
+			<option value="eur">EUR - Euro</option>
+			<option value="usd">USD - Dollar des États-Unis</option>
+			<option value="gbp">GBP - Livre britannique</option>
+			<option value="cad">CAD - Dollar canadien</option>
+		</select>
+		<select name="devise" id="devise-select2">
+			<option value="">--Choose a currency--</option>
+			<option value="eur">EUR - Euro</option>
+			<option value="usd">USD - Dollar des États-Unis</option>
+			<option value="gbp">GBP - Livre britannique</option>
+			<option value="cad">CAD - Dollar canadien</option>
+		</select><br>
+		<input type="text" id="montant" placeholder="Amount...">
+		<button class="buttonConvert button12" onclick="convert()">Convert</button>
+		<h2 id="resultatConvert">0</h2>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
